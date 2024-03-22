@@ -1,0 +1,13 @@
+!/bin/bash
+
+# Function for performing Nmap scan
+perform_nmap_scan() {
+    read -p "Enter target(s) (IP address(es) or domain name(s)): " targets
+    read -p "Enter scan type (TCP SYN scan: -sS, TCP connect scan: -sT): " scan_type
+    read -p "Enter additional options (comma-separated, e.g., -Pn,-p1-65535,-A): " additional_options
+
+    # Construct Nmap command
+    nmap_command="nmap $scan_type $additional_options $targets"
+
+    echo "Running Nmap scan with command: $nmap_command"
+    $nmap_comman

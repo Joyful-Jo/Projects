@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Fri Mar 22 04:39:35 2024 as: nmap -&#45;script=default,vuln -oN nmap_enumeration.txt -oX nmap_enumeration.xml -Pn -sV -p- -&#45;stats-every 10m -&#45;append-output -&#45;reason -iL /home/jotheeswar/pentest/nmap_scan_20240322_043637.txt -->
+<nmaprun scanner="nmap" args="nmap -&#45;script=default,vuln -oN nmap_enumeration.txt -oX nmap_enumeration.xml -Pn -sV -p- -&#45;stats-every 10m -&#45;append-output -&#45;reason -iL /home/jotheeswar/pentest/nmap_scan_20240322_043637.txt" start="1711096775" startstr="Fri Mar 22 04:39:35 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="NSE" time="1711096781" percent="50.00" remaining="6" etc="1711096787"/>
+<target specification="2a03:2880:f185:85:face:b00c:0:25de" status="skipped" reason="invalid"/>
+<target specification="80/tcp" status="skipped" reason="invalid"/>
+<target specification="https://www.facebook.com/" status="skipped" reason="invalid"/>
+<target specification="HTTP/1.1" status="skipped" reason="invalid"/>
+<target specification="https:///" status="skipped" reason="invalid"/>
+<target specification="text/plain" status="skipped" reason="invalid"/>
+<target specification="HTTP/1.1" status="skipped" reason="invalid"/>
+<target specification="text/html;" status="skipped" reason="invalid"/>
+<target specification="Error&lt;/title&gt;" status="skipped" reason="invalid"/>
+<target specification="443/tcp" status="skipped" reason="invalid"/>
+<target specification="ssl/https" status="skipped" reason="invalid"/>
+<target specification="commonName=*.facebook.com/organizationName=Meta" status="skipped" reason="invalid"/>
+<target specification="Inc./stateOrProvinceName=California/countryName=US" status="skipped" reason="invalid"/>
+<target specification="CA/organizationName=DigiCert" status="skipped" reason="invalid"/>
+<target specification="Inc/countryName=US" status="skipped" reason="invalid"/>
+<target specification="57e2:7839:4d24:d695:acb5:af9a:6ea1:55e0" status="skipped" reason="invalid"/>
+<target specification="http/1.1" status="skipped" reason="invalid"/>
+<target specification="HTTP/1.1" status="skipped" reason="invalid"/>
+<target specification="text/html;" status="skipped" reason="invalid"/>
+<target specification="oT4vyytbZTr7BDN+/y4SibzTRmFmwr0pUvI2Zi8OUxuK2lTIDTRXjf34tYUszG6iVAEKNWIkUboXLloB7IhUuQ==" status="skipped" reason="invalid"/>
+<target specification="HTTP/1.1" status="skipped" reason="invalid"/>
+<target specification="wss://*.facebook.com:*" status="skipped" reason="invalid"/>
+<target specification="wss://*.whatsapp.com:*" status="skipped" reason="invalid"/>
+<target specification="wss://*.fbcdn.net" status="skipped" reason="invalid"/>
+<target specification="ws://localhost:*" status="skipped" reason="invalid"/>
+<target specification="coop_report=&quot;https://www.facebook.com/browser_reporting/coop/?minimize=0&quot;" status="skipped" reason="invalid"/>
+<target specification="service/version," status="skipped" reason="invalid"/>
+<target specification="https://nmap.org/cgi-bin/submit.cgi?new-service" status="skipped" reason="invalid"/>
+<target specification="SF-Port80-TCP:V=7.94SVN%I=7%D=3/22%Time=65FD4330%P=x86_64-pc-linux-gnu%r(G" status="skipped" reason="invalid"/>
+<target specification="SF:etRequest,B3,&quot;HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20" status="skipped" reason="invalid"/>
+<target specification="SF:https:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\" status="skipped" reason="invalid"/>
+<target specification="SF:20close\r\nContent-Length:\x200\r\n\r\n&quot;)%r(HTTPOptions,B3,&quot;HTTP/1\.1\x" status="skipped" reason="invalid"/>
+<target specification="SF:20301\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type" status="skipped" reason="invalid"/>
+<target specification="SF::\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Fri,\x2022\x20M" status="skipped" reason="invalid"/>
+<target specification="SF::\x200\r\n\r\n&quot;)%r(RTSPRequest,C21,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\" status="skipped" reason="invalid"/>
+<target specification="SF:r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nDate:\x20Fri,\x2022\" status="skipped" reason="invalid"/>
+<target specification="SF:ror&lt;/title&gt;\n\x20\x20\x20\x20&lt;meta\x20charset=\&quot;utf-8\&quot;&gt;\n\x20\x20\x20\" status="skipped" reason="invalid"/>
+<target specification="SF-Port443-TCP:V=7.94SVN%T=SSL%I=7%D=3/22%Time=65FD4336%P=x86_64-pc-linux-" status="skipped" reason="invalid"/>
+<target specification="SF:gnu%r(GetRequest,11B3,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nVary:\x20A" status="skipped" reason="invalid"/>
+<target specification="SF:ccept-Encoding\r\nContent-Type:\x20text/html;\x20charset=\&quot;utf-8\&quot;\r\nX" status="skipped" reason="invalid"/>
+<target specification="SF:-FB-Debu

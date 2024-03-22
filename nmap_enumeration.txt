@@ -1,0 +1,463 @@
+# Nmap 7.94SVN scan initiated Fri Mar 22 04:39:35 2024 as: nmap --script=default,vuln -oN nmap_enumeration.txt -oX nmap_enumeration.xml -Pn -sV -p- --stats-every 10m --append-output --reason -iL /home/jotheeswar/pentest/nmap_scan_20240322_043637.txt
+Failed to resolve "Nmap".
+Failed to resolve "scan".
+Failed to resolve "report".
+Failed to resolve "for".
+Failed to resolve "(163.70.140.35)".
+Failed to resolve "Host".
+Failed to resolve "is".
+Failed to resolve "up".
+Failed to resolve "(0.037s".
+Failed to resolve "latency).".
+Failed to resolve "Other".
+Failed to resolve "addresses".
+Failed to resolve "for".
+Failed to resolve "(not".
+Failed to resolve "scanned):".
+2a03:2880:f185:85:face:b00c:0:25de looks like an IPv6 target specification -- you have to use the -6 option.
+Failed to resolve "rDNS".
+Failed to resolve "record".
+Failed to resolve "for".
+Failed to resolve "163.70.140.35:".
+Failed to resolve "Not".
+Failed to resolve "shown:".
+Failed to resolve "filtered".
+Failed to resolve "tcp".
+Failed to resolve "ports".
+Failed to resolve "(no-response)".
+Failed to resolve "PORT".
+Failed to resolve "STATE".
+Failed to resolve "SERVICE".
+Failed to resolve "VERSION".
+Unable to split netmask from target expression: "80/tcp"
+Failed to resolve "open".
+Failed to resolve "http".
+Failed to resolve "proxygen-bolt".
+Failed to resolve "|".
+Failed to resolve "http-methods:".
+Failed to resolve "|_".
+Failed to resolve "Supported".
+Failed to resolve "Methods:".
+Failed to resolve "GET".
+Failed to resolve "HEAD".
+Failed to resolve "POST".
+Failed to resolve "OPTIONS".
+Failed to resolve "|_http-title:".
+Failed to resolve "Did".
+Failed to resolve "not".
+Failed to resolve "follow".
+Failed to resolve "redirect".
+Failed to resolve "to".
+Unable to split netmask from target expression: "https://www.facebook.com/"
+Failed to resolve "|_http-server-header:".
+Failed to resolve "proxygen-bolt".
+Failed to resolve "|".
+Failed to resolve "fingerprint-strings:".
+Failed to resolve "|".
+Failed to resolve "GetRequest,".
+Failed to resolve "HTTPOptions:".
+Failed to resolve "|".
+Unable to split netmask from target expression: "HTTP/1.1"
+Failed to resolve "Moved".
+Failed to resolve "Permanently".
+Failed to resolve "|".
+Failed to resolve "Location:".
+Unable to split netmask from target expression: "https:///"
+Failed to resolve "|".
+Failed to resolve "Content-Type:".
+Unable to split netmask from target expression: "text/plain"
+Failed to resolve "|".
+Failed to resolve "Server:".
+Failed to resolve "proxygen-bolt".
+Failed to resolve "|".
+Failed to resolve "Date:".
+Failed to resolve "Fri,".
+Failed to resolve "Mar".
+Failed to resolve "08:37:06".
+Failed to resolve "GMT".
+Failed to resolve "|".
+Failed to resolve "Connection:".
+Failed to resolve "close".
+Failed to resolve "|".
+Failed to resolve "Content-Length:".
+Failed to resolve "|".
+Failed to resolve "RTSPRequest:".
+Failed to resolve "|".
+Unable to split netmask from target expression: "HTTP/1.1"
+Failed to resolve "Bad".
+Failed to resolve "Request".
+Failed to resolve "|".
+Failed to resolve "Content-Type:".
+Unable to split netmask from target expression: "text/html;"
+Failed to resolve "charset=utf-8".
+Failed to resolve "|".
+Failed to resolve "Date:".
+Failed to resolve "Fri,".
+Failed to resolve "Mar".
+Failed to resolve "08:37:06".
+Failed to resolve "GMT".
+Failed to resolve "|".
+Failed to resolve "Connection:".
+Failed to resolve "close".
+Failed to resolve "|".
+Failed to resolve "Content-Length:".
+Failed to resolve "|".
+Failed to resolve "<!DOCTYPE".
+Failed to resolve "html>".
+Failed to resolve "|".
+Failed to resolve "<html".
+Failed to resolve "lang="en"".
+Failed to resolve "id="facebook">".
+Failed to resolve "|".
+Failed to resolve "<head>".
+Failed to resolve "|".
+Failed to resolve "<title>Facebook".
+Failed to resolve "|".
+Unable to split netmask from target expression: "Error</title>"
+Failed to resolve "|".
+Failed to resolve "<meta".
+Failed to resolve "charset="utf-8">".
+Failed to resolve "|".
+Failed to resolve "<meta".
+Failed to resolve "http-equiv="cache-control"".
+Failed to resolve "content="no-cache">".
+Failed to resolve "|".
+Failed to resolve "<meta".
+Failed to resolve "http-equiv="cache-control"".
+Failed to resolve "content="no-store">".
+Failed to resolve "|".
+Failed to resolve "<meta".
+Failed to resolve "http-equiv="cache-control"".
+Failed to resolve "content="max-age=0">".
+Failed to resolve "|".
+Failed to resolve "<meta".
+Failed to resolve "http-equiv="expires"".
+Failed to resolve "content="-1">".
+Failed to resolve "|".
+Failed to resolve "<meta".
+Failed to resolve "http-equiv="pragma"".
+Failed to resolve "content="no-cache">".
+Failed to resolve "|".
+Failed to resolve "<meta".
+Failed to resolve "name="robots"".
+Failed to resolve "content="noindex,nofollow">".
+Failed to resolve "|".
+Failed to resolve "<style>".
+Failed to resolve "|".
+Failed to resolve "html,".
+Failed to resolve "body".
+Failed to resolve "{".
+Failed to resolve "|".
+Failed to resolve "color:".
+Failed to resolve "|".
+Failed to resolve "background-color:".
+Failed to resolve "|".
+Failed to resolve "font-family:".
+Failed to resolve "Helvetica,".
+Failed to resolve "Lucida".
+Failed to resolve "Grande,".
+Failed to resolve "Arial,".
+Failed to resolve "|".
+Failed to resolve "Tahoma,".
+Failed to resolve "Verdana,".
+Failed to resolve "sans-serif;".
+Failed to resolve "|".
+Failed to resolve "margin:".
+Failed to resolve "0;".
+Failed to resolve "|".
+Failed to resolve "padding:".
+Failed to resolve "0;".
+Failed to resolve "|".
+Failed to resolve "text-align:".
+Failed to resolve "center;".
+Failed to resolve "|".
+Failed to resolve "|_".
+Failed to resolve "height:".
+Failed to resolve "30px;".
+Unable to split netmask from target expression: "443/tcp"
+Failed to resolve "open".
+Unable to split netmask from target expression: "ssl/https"
+Failed to resolve "|".
+Failed to resolve "ssl-cert:".
+Failed to resolve "Subject:".
+Unable to split netmask from target expression: "commonName=*.facebook.com/organizationName=Meta"
+Failed to resolve "Platforms,".
+Unable to split netmask from target expression: "Inc./stateOrProvinceName=California/countryName=US"
+Failed to resolve "|".
+Failed to resolve "Subject".
+Failed to resolve "Alternative".
+Failed to resolve "Name:".
+Failed to resolve "DNS:*.facebook.com,".
+Failed to resolve "DNS:*.facebook.net,".
+Failed to resolve "DNS:*.fbcdn.net,".
+Failed to resolve "DNS:*.fbsbx.com,".
+Failed to resolve "DNS:*.m.facebook.com,".
+Failed to resolve "DNS:*.messenger.com,".
+Failed to resolve "DNS:*.xx.fbcdn.net,".
+Failed to resolve "DNS:*.xy.fbcdn.net,".
+Failed to resolve "DNS:*.xz.fbcdn.net,".
+Failed to resolve "DNS:facebook.com,".
+Failed to resolve "DNS:messenger.com".
+Failed to resolve "|".
+Failed to resolve "Issuer:".
+Failed to resolve "commonName=DigiCert".
+Failed to resolve "SHA2".
+Failed to resolve "High".
+Failed to resolve "Assurance".
+Failed to resolve "Server".
+Unable to split netmask from target expression: "CA/organizationName=DigiCert"
+Unable to split netmask from target expression: "Inc/countryName=US"
+Failed to resolve "|".
+Failed to resolve "Public".
+Failed to resolve "Key".
+Failed to resolve "type:".
+Failed to resolve "ec".
+Failed to resolve "|".
+Failed to resolve "Public".
+Failed to resolve "Key".
+Failed to resolve "bits:".
+Failed to resolve "|".
+Failed to resolve "Signature".
+Failed to resolve "Algorithm:".
+Failed to resolve "sha256WithRSAEncryption".
+Failed to resolve "|".
+Failed to resolve "Not".
+Failed to resolve "valid".
+Failed to resolve "before:".
+Failed to resolve "2023-12-30T00:00:00".
+Failed to resolve "|".
+Failed to resolve "Not".
+Failed to resolve "valid".
+Failed to resolve "after:".
+Failed to resolve "2024-03-29T23:59:59".
+Failed to resolve "|".
+Failed to resolve "MD5:".
+57e2:7839:4d24:d695:acb5:af9a:6ea1:55e0 looks like an IPv6 target specification -- you have to use the -6 option.
+Failed to resolve "|_SHA-1:".
+Failed to resolve "c083:c36e:278d:6d64:4bb0:e65c:e297:136c:8dd3:8bfb".
+Failed to resolve "|_http-favicon:".
+Failed to resolve "Unknown".
+Failed to resolve "favicon".
+Failed to resolve "MD5:".
+Failed to resolve "3E764F0F737767B30A692FAB1DE3CE49".
+Failed to resolve "|".
+Failed to resolve "http-methods:".
+Failed to resolve "|_".
+Failed to resolve "Supported".
+Failed to resolve "Methods:".
+Failed to resolve "GET".
+Failed to resolve "HEAD".
+Failed to resolve "|".
+Failed to resolve "tls-alpn:".
+Failed to resolve "|".
+Failed to resolve "h2".
+Failed to resolve "|_".
+Unable to split netmask from target expression: "http/1.1"
+Failed to resolve "|".
+Failed to resolve "fingerprint-strings:".
+Failed to resolve "|".
+Failed to resolve "GetRequest:".
+Failed to resolve "|".
+Unable to split netmask from target expression: "HTTP/1.1"
+Failed to resolve "Bad".
+Failed to resolve "Request".
+Failed to resolve "|".
+Failed to resolve "Vary:".
+Failed to resolve "Accept-Encoding".
+Failed to resolve "|".
+Failed to resolve "Content-Type:".
+Unable to split netmask from target expression: "text/html;"
+Failed to resolve "charset="utf-8"".
+Failed to resolve "|".
+Failed to resolve "X-FB-Debug:".
+Unable to split netmask from target expression: "oT4vyytbZTr7BDN+/y4SibzTRmFmwr0pUvI2Zi8OUxuK2lTIDTRXjf34tYUszG6iVAEKNWIkUboXLloB7IhUuQ=="
+Failed to resolve "|".
+Failed to resolve "Date:".
+Failed to resolve "Fri,".
+Failed to resolve "Mar".
+Failed to resolve "08:37:12".
+Failed to resolve "GMT".
+Failed to resolve "|".
+Failed to resolve "Proxy-Status:".
+Failed to resolve "http_request_error;".
+Failed to resolve "e_fb_configversion="AcJXPsO56_IIn3T4G8Qv4-kgHAla4m_xrFBjlTHooD64JyoKi5TC4DQvQh2UcQ";".
+Failed to resolve "e_clientaddr="AcKOyZTbDKY2sZYt8xF09CC0L17tAAs7jSgOKNSvPw6XlW2wGxF5LD6hfCgeZcwzdBT9Fn1rwgYI0pJj3SNX6wl5hNOuFUEUqHJFcwyCSxgbte8kTw";".
+Failed to resolve "e_fb_vipport="AcI5khIL2ic8_attjvR8j0XTcnMDWi8s-9UsiIUbOv_ZVFW0GPE6Dq5QrXrl";".
+Failed to resolve "e_upip="AcIBSL45TZjc021LnE0ArUdp3T_X5gHss8W5yvq2HTrtmjbFIb-OB_rIDfwo0B_rv3dPDwrOE95OaL9GsLrRKLJ3cT626YzeO90";".
+Failed to resolve "e_fb_requestsequencenumber="AcJfRC-ZlVc3F7gNAWlDUSuzlbO2AUbG0oFteGg0AWtEqFw37cp4GQyYL_r3";".
+Failed to resolve "e_fb_hostheader="AcIHGQVvbvXxEoKQVqHk7tPCYafwcOEb8mdnEmOoIUWivvQDlbym6QQ5n-1RtZdgtMowvniSnA";".
+Failed to resolve "e_fb_vipaddr="AcLWdXsysU8SynLRfuvG2Jijh7b3scXuOo".
+Failed to resolve "|".
+Failed to resolve "HTTPOptions:".
+Failed to resolve "|".
+Unable to split netmask from target expression: "HTTP/1.1"
+Failed to resolve "Internal".
+Failed to resolve "Server".
+Failed to resolve "Error".
+Failed to resolve "|".
+Failed to resolve "Vary:".
+Failed to resolve "Accept-Encoding".
+Failed to resolve "|".
+Failed to resolve "Pragma:".
+Failed to resolve "no-cache".
+Failed to resolve "|".
+Failed to resolve "Cache-Control:".
+Failed to resolve "private,".
+Failed to resolve "no-cache,".
+Failed to resolve "no-store,".
+Failed to resolve "must-revalidate".
+Failed to resolve "|".
+Failed to resolve "Expires:".
+Failed to resolve "Sat,".
+Failed to resolve "Jan".
+Failed to resolve "00:00:00".
+Failed to resolve "GMT".
+Failed to resolve "|".
+Failed to resolve "content-security-policy:".
+Failed to resolve "default-src".
+Failed to resolve "'self'".
+Failed to resolve "data:".
+Failed to resolve "blob:;script-src".
+Failed to resolve "'unsafe-inline'".
+Failed to resolve "'unsafe-eval'".
+Failed to resolve "blob:".
+Failed to resolve "data:".
+Failed to resolve "'self'".
+Failed to resolve "*.facebook.com".
+Failed to resolve "*.fbcdn.net".
+Failed to resolve "*.facebook.net".
+Failed to resolve "*.google-analytics.com".
+Failed to resolve "*.google.com".
+Failed to resolve "127.0.0.1:*;style-src".
+Failed to resolve "data:".
+Failed to resolve "blob:".
+Failed to resolve "'unsafe-inline';connect-src".
+Failed to resolve "blob:".
+Failed to resolve "'self'".
+Failed to resolve "*.facebook.com".
+Failed to resolve "*.fbcdn.net".
+Failed to resolve "*.facebook.net".
+Unable to split netmask from target expression: "wss://*.facebook.com:*"
+Unable to split netmask from target expression: "wss://*.whatsapp.com:*"
+Unable to split netmask from target expression: "wss://*.fbcdn.net"
+Unable to split netmask from target expression: "ws://localhost:*"
+Failed to resolve "*.cdninstagram.com;block-all-mixed-content;upgrade-insecure-requests;".
+Failed to resolve "|".
+Failed to resolve "X-Frame-Options:".
+Failed to resolve "DENY".
+Failed to resolve "|".
+Failed to resolve "X-Content-Type-Options:".
+Failed to resolve "nosniff".
+Failed to resolve "|".
+Failed to resolve "X-XSS-Protection:".
+Failed to resolve "|".
+Failed to resolve "reporting-endpoints:".
+Unable to split netmask from target expression: "coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0""
+Failed to resolve "|_".
+Failed to resolve "report-to:".
+Failed to resolve "{"max_age":2592000,"endpoints":[{"url":"h".
+Failed to resolve "|_ssl-date:".
+Failed to resolve "TLS".
+Failed to resolve "randomness".
+Failed to resolve "does".
+Failed to resolve "not".
+Failed to resolve "represent".
+Failed to resolve "time".
+Failed to resolve "services".
+Failed to resolve "unrecognized".
+Failed to resolve "despite".
+Failed to resolve "returning".
+Failed to resolve "data.".
+Failed to resolve "If".
+Failed to resolve "you".
+Failed to resolve "know".
+Failed to resolve "the".
+Unable to split netmask from target expression: "service/version,"
+Failed to resolve "please".
+Failed to resolve "submit".
+Failed to resolve "the".
+Failed to resolve "following".
+Failed to resolve "fingerprints".
+Failed to resolve "at".
+Unable to split netmask from target expression: "https://nmap.org/cgi-bin/submit.cgi?new-service"
+Failed to resolve ":".
+Failed to resolve "==============NEXT".
+Failed to resolve "SERVICE".
+Failed to resolve "FINGERPRINT".
+Failed to resolve "(SUBMIT".
+Failed to resolve "INDIVIDUALLY)==============".
+Unable to split netmask from target expression: "SF-Port80-TCP:V=7.94SVN%I=7%D=3/22%Time=65FD4330%P=x86_64-pc-linux-gnu%r(G"
+Unable to split netmask from target expression: "SF:etRequest,B3,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20"
+Unable to split netmask from target expression: "SF:https:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\"
+Failed to resolve "SF:nDate:\x20Fri,\x2022\x20Mar\x202024\x2008:37:06\x20GMT\r\nConnection:\x".
+Unable to split netmask from target expression: "SF:20close\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,B3,"HTTP/1\.1\x"
+Unable to split netmask from target expression: "SF:20301\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type"
+Unable to split netmask from target expression: "SF::\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Fri,\x2022\x20M"
+Failed to resolve "SF:ar\x202024\x2008:37:06\x20GMT\r\nConnection:\x20close\r\nContent-Length".
+Unable to split netmask from target expression: "SF::\x200\r\n\r\n")%r(RTSPRequest,C21,"HTTP/1\.1\x20400\x20Bad\x20Request\"
+Unable to split netmask from target expression: "SF:r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nDate:\x20Fri,\x2022\"
+Failed to resolve "SF:x20Mar\x202024\x2008:37:06\x20GMT\r\nConnection:\x20close\r\nContent-Le".
+Failed to resolve "SF:ngth:\x202959\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x20id=\"f".
+Failed to resolve "SF:acebook\">\n\x20\x20<head>\n\x20\x20\x20\x20<title>Facebook\x20\|\x20Er".
+Unable to split netmask from target expression: "SF:ror</title>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\"
+Failed to resolve "SF:x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-cache\">\n\x20".
+Failed to resolve "SF:\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-store".
+Failed to resolve "SF:\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\".
+Failed to resolve "SF:"max-age=0\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"expires\"\x20conte".
+Failed to resolve "SF:nt=\"-1\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=\".
+Failed to resolve "SF:"no-cache\">\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"noi".
+Failed to resolve "SF:ndex,nofollow\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20html".
+Failed to resolve "SF:,\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20".
+Failed to resolve "SF:0\x20\x20\x20\x20\x20\x20\x20background-color:\x20".
+Failed to resolve "SF:0\x20\x20\x20\x20\x20font-family:\x20Helvetica,\x20Lucida\x20Grande,\x2".
+Failed to resolve "SF:0Arial,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x".
+Failed to resolve "SF:20\x20\x20\x20\x20\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20\".
+Failed to resolve "SF:x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20paddi".
+Failed to resolve "SF:ng:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\n\x20".
+Failed to resolve "SF:\x20\x20\x20\x20\x20}\n\n\x20\x20\x20\x20\x20\x20".
+Failed to resolve "SF:\x20\x20\x20\x20\x20\x20height:\x2030px;\n\x20\x20\x20\x20\x20\x20\x20\".
+Failed to resolve "SF:x20");".
+Failed to resolve "==============NEXT".
+Failed to resolve "SERVICE".
+Failed to resolve "FINGERPRINT".
+Failed to resolve "(SUBMIT".
+Failed to resolve "INDIVIDUALLY)==============".
+Unable to split netmask from target expression: "SF-Port443-TCP:V=7.94SVN%T=SSL%I=7%D=3/22%Time=65FD4336%P=x86_64-pc-linux-"
+Unable to split netmask from target expression: "SF:gnu%r(GetRequest,11B3,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nVary:\x20A"
+Unable to split netmask from target expression: "SF:ccept-Encoding\r\nContent-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX"
+Unable to split netmask from target expression: "SF:-FB-Debug:\x20oT4vyytbZTr7BDN\+/y4SibzTRmFmwr0pUvI2Zi8OUxuK2lTIDTRXjf34"
+Failed to resolve "SF:tYUszG6iVAEKNWIkUboXLloB7IhUuQ==\r\nDate:\x20Fri,\x2022\x20Mar\x202024\".
+Failed to resolve "SF:x2008:37:12\x20GMT\r\nProxy-Status:\x20http_request_error;\x20e_fb_conf".
+Failed to resolve "SF:igversion=\"AcJXPsO56_IIn3T4G8Qv4-kgHAla4m_xrFBjlTHooD64JyoKi5TC4DQvQh2".
+Failed to resolve "SF:UcQ\";\x20e_clientaddr=\"AcKOyZTbDKY2sZYt8xF09CC0L17tAAs7jSgOKNSvPw6XlW".
+Failed to resolve "SF:2wGxF5LD6hfCgeZcwzdBT9Fn1rwgYI0pJj3SNX6wl5hNOuFUEUqHJFcwyCSxgbte8kTw\";".
+Failed to resolve "SF:\x20e_fb_vipport=\"AcI5khIL2ic8_attjvR8j0XTcnMDWi8s-9UsiIUbOv_ZVFW0GPE6".
+Failed to resolve "SF:Dq5QrXrl\";\x20e_upip=\"AcIBSL45TZjc021LnE0ArUdp3T_X5gHss8W5yvq2HTrtmjb".
+Failed to resolve "SF:FIb-OB_rIDfwo0B_rv3dPDwrOE95OaL9GsLrRKLJ3cT626YzeO90\";\x20e_fb_request".
+Failed to resolve "SF:sequencenumber=\"AcJfRC-ZlVc3F7gNAWlDUSuzlbO2AUbG0oFteGg0AWtEqFw37cp4GQ".
+Failed to resolve "SF:yYL_r3\";\x20e_fb_hostheader=\"AcIHGQVvbvXxEoKQVqHk7tPCYafwcOEb8mdnEmOo".
+Failed to resolve "SF:IUWivvQDlbym6QQ5n-1RtZdgtMowvniSnA\";\x20e_fb_vipaddr=\"AcLWdXsysU8SynL".
+Unable to split netmask from target expression: "SF:RfuvG2Jijh7b3scXuOo")%r(HTTPOptions,15A4,"HTTP/1\.1\x20500\x20Internal\"
+Failed to resolve "SF:x20Server\x20Error\r\nVary:\x20Accept-Encoding\r\nPragma:\x20no-cache\r".
+Failed to resolve "SF:\nCache-Control:\x20private,\x20no-cache,\x20no-store,\x20must-revalida".
+Failed to resolve "SF:te\r\nExpires:\x20Sat,\x2001\x20Jan\x202000\x2000:00:00\x20GMT\r\nconte".
+Failed to resolve "SF:nt-security-policy:\x20default-src\x20'self'\x20data:\x20blob:;script-s".
+Failed to resolve "SF:rc\x20'unsafe-inline'\x20'unsafe-eval'\x20blob:\x20data:\x20'self'\x20\".
+Failed to resolve "SF:*\.facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x20\*\.google-a".
+Failed to resolve "SF:nalytics\.com\x20\*\.google\.com\x20127\.0\.0\.1:\*;style-src\x20data:\".
+Failed to resolve "SF:x20blob:\x20'unsafe-inline';connect-src\x20blob:\x20'self'\x20\*\.faceb".
+Failed to resolve "SF:ook\.com\x20facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x20wss".
+Unable to split netmask from target expression: "SF:://\*\.facebook\.com:\*\x20wss://\*\.whatsapp\.com:\*\x20wss://\*\.fbcd"
+Unable to split netmask from target expression: "SF:n\.net\x20attachment\.fbsbx\.com\x20ws://localhost:\*\x20\*\.cdninstagr"
+Failed to resolve "SF:am\.com;block-all-mixed-content;upgrade-insecure-requests;\r\nX-Frame-O".
+Failed to resolve "SF:ptions:\x20DENY\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protecti".
+Unable to split netmask from target expression: "SF:on:\x200\r\nreporting-endpoints:\x20coop_report=\"https://www\.facebook"
+Unable to split netmask from target expression: "SF:\.com/browser_reporting/coop/\?minimize=0\"\r\nreport-to:\x20{\"max_age"
+Failed to resolve "SF:\":2592000,\"endpoints\":\[{\"url\":\"h");".
+Failed to resolve "Warning:".
+Failed to resolve "OSScan".
+Failed to resolve "results".
+Failed to resolve "may".
+Failed to resolve "be".
+Failed to resolve "unreliable".
+Failed to resolve

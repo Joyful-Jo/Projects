@@ -1,0 +1,179 @@
+# Nmap 7.94SVN scan initiated Fri Mar 22 04:36:45 2024 as: nmap -sT -Pn -sV -O -T4 -A -oN nmap_scan_20240322_043637.txt -v -T5 www.facebook.com
+Nmap scan report for www.facebook.com (163.70.140.35)
+Host is up (0.037s latency).
+Other addresses for www.facebook.com (not scanned): 2a03:2880:f185:85:face:b00c:0:25de
+rDNS record for 163.70.140.35: edge-star-mini-shv-01-hyd1.facebook.com
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      proxygen-bolt
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Did not follow redirect to https://www.facebook.com/
+|_http-server-header: proxygen-bolt
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 301 Moved Permanently
+|     Location: https:///
+|     Content-Type: text/plain
+|     Server: proxygen-bolt
+|     Date: Fri, 22 Mar 2024 08:37:06 GMT
+|     Connection: close
+|     Content-Length: 0
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/html; charset=utf-8
+|     Date: Fri, 22 Mar 2024 08:37:06 GMT
+|     Connection: close
+|     Content-Length: 2959
+|     <!DOCTYPE html>
+|     <html lang="en" id="facebook">
+|     <head>
+|     <title>Facebook | Error</title>
+|     <meta charset="utf-8">
+|     <meta http-equiv="cache-control" content="no-cache">
+|     <meta http-equiv="cache-control" content="no-store">
+|     <meta http-equiv="cache-control" content="max-age=0">
+|     <meta http-equiv="expires" content="-1">
+|     <meta http-equiv="pragma" content="no-cache">
+|     <meta name="robots" content="noindex,nofollow">
+|     <style>
+|     html, body {
+|     color: #141823;
+|     background-color: #e9eaed;
+|     font-family: Helvetica, Lucida Grande, Arial,
+|     Tahoma, Verdana, sans-serif;
+|     margin: 0;
+|     padding: 0;
+|     text-align: center;
+|     #header {
+|_    height: 30px;
+443/tcp open  ssl/https
+| ssl-cert: Subject: commonName=*.facebook.com/organizationName=Meta Platforms, Inc./stateOrProvinceName=California/countryName=US
+| Subject Alternative Name: DNS:*.facebook.com, DNS:*.facebook.net, DNS:*.fbcdn.net, DNS:*.fbsbx.com, DNS:*.m.facebook.com, DNS:*.messenger.com, DNS:*.xx.fbcdn.net, DNS:*.xy.fbcdn.net, DNS:*.xz.fbcdn.net, DNS:facebook.com, DNS:messenger.com
+| Issuer: commonName=DigiCert SHA2 High Assurance Server CA/organizationName=DigiCert Inc/countryName=US
+| Public Key type: ec
+| Public Key bits: 256
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2023-12-30T00:00:00
+| Not valid after:  2024-03-29T23:59:59
+| MD5:   57e2:7839:4d24:d695:acb5:af9a:6ea1:55e0
+|_SHA-1: c083:c36e:278d:6d64:4bb0:e65c:e297:136c:8dd3:8bfb
+|_http-favicon: Unknown favicon MD5: 3E764F0F737767B30A692FAB1DE3CE49
+| http-methods: 
+|_  Supported Methods: GET HEAD
+| tls-alpn: 
+|   h2
+|_  http/1.1
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Vary: Accept-Encoding
+|     Content-Type: text/html; charset="utf-8"
+|     X-FB-Debug: oT4vyytbZTr7BDN+/y4SibzTRmFmwr0pUvI2Zi8OUxuK2lTIDTRXjf34tYUszG6iVAEKNWIkUboXLloB7IhUuQ==
+|     Date: Fri, 22 Mar 2024 08:37:12 GMT
+|     Proxy-Status: http_request_error; e_fb_configversion="AcJXPsO56_IIn3T4G8Qv4-kgHAla4m_xrFBjlTHooD64JyoKi5TC4DQvQh2UcQ"; e_clientaddr="AcKOyZTbDKY2sZYt8xF09CC0L17tAAs7jSgOKNSvPw6XlW2wGxF5LD6hfCgeZcwzdBT9Fn1rwgYI0pJj3SNX6wl5hNOuFUEUqHJFcwyCSxgbte8kTw"; e_fb_vipport="AcI5khIL2ic8_attjvR8j0XTcnMDWi8s-9UsiIUbOv_ZVFW0GPE6Dq5QrXrl"; e_upip="AcIBSL45TZjc021LnE0ArUdp3T_X5gHss8W5yvq2HTrtmjbFIb-OB_rIDfwo0B_rv3dPDwrOE95OaL9GsLrRKLJ3cT626YzeO90"; e_fb_requestsequencenumber="AcJfRC-ZlVc3F7gNAWlDUSuzlbO2AUbG0oFteGg0AWtEqFw37cp4GQyYL_r3"; e_fb_hostheader="AcIHGQVvbvXxEoKQVqHk7tPCYafwcOEb8mdnEmOoIUWivvQDlbym6QQ5n-1RtZdgtMowvniSnA"; e_fb_vipaddr="AcLWdXsysU8SynLRfuvG2Jijh7b3scXuOo
+|   HTTPOptions: 
+|     HTTP/1.1 500 Internal Server Error
+|     Vary: Accept-Encoding
+|     Pragma: no-cache
+|     Cache-Control: private, no-cache, no-store, must-revalidate
+|     Expires: Sat, 01 Jan 2000 00:00:00 GMT
+|     content-security-policy: default-src 'self' data: blob:;script-src 'unsafe-inline' 'unsafe-eval' blob: data: 'self' *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.google.com 127.0.0.1:*;style-src data: blob: 'unsafe-inline';connect-src blob: 'self' *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* *.cdninstagram.com;block-all-mixed-content;upgrade-insecure-requests;
+|     X-Frame-Options: DENY
+|     X-Content-Type-Options: nosniff
+|     X-XSS-Protection: 0
+|     reporting-endpoints: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0"
+|_    report-to: {"max_age":2592000,"endpoints":[{"url":"h
+|_ssl-date: TLS randomness does not represent time
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.94SVN%I=7%D=3/22%Time=65FD4330%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,B3,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20
+SF:https:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\
+SF:nDate:\x20Fri,\x2022\x20Mar\x202024\x2008:37:06\x20GMT\r\nConnection:\x
+SF:20close\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,B3,"HTTP/1\.1\x
+SF:20301\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type
+SF::\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Fri,\x2022\x20M
+SF:ar\x202024\x2008:37:06\x20GMT\r\nConnection:\x20close\r\nContent-Length
+SF::\x200\r\n\r\n")%r(RTSPRequest,C21,"HTTP/1\.1\x20400\x20Bad\x20Request\
+SF:r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nDate:\x20Fri,\x2022\
+SF:x20Mar\x202024\x2008:37:06\x20GMT\r\nConnection:\x20close\r\nContent-Le
+SF:ngth:\x202959\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x20id=\"f
+SF:acebook\">\n\x20\x20<head>\n\x20\x20\x20\x20<title>Facebook\x20\|\x20Er
+SF:ror</title>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\
+SF:x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-cache\">\n\x20
+SF:\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-store
+SF:\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\
+SF:"max-age=0\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"expires\"\x20conte
+SF:nt=\"-1\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=\
+SF:"no-cache\">\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"noi
+SF:ndex,nofollow\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20html
+SF:,\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#141823;\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20background-color:\x20#e9eaed;\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20font-family:\x20Helvetica,\x20Lucida\x20Grande,\x2
+SF:0Arial,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20\
+SF:x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20paddi
+SF:ng:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\n\x20
+SF:\x20\x20\x20\x20\x20}\n\n\x20\x20\x20\x20\x20\x20#header\x20{\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20height:\x2030px;\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.94SVN%T=SSL%I=7%D=3/22%Time=65FD4336%P=x86_64-pc-linux-
+SF:gnu%r(GetRequest,11B3,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nVary:\x20A
+SF:ccept-Encoding\r\nContent-Type:\x20text/html;\x20charset=\"utf-8\"\r\nX
+SF:-FB-Debug:\x20oT4vyytbZTr7BDN\+/y4SibzTRmFmwr0pUvI2Zi8OUxuK2lTIDTRXjf34
+SF:tYUszG6iVAEKNWIkUboXLloB7IhUuQ==\r\nDate:\x20Fri,\x2022\x20Mar\x202024\
+SF:x2008:37:12\x20GMT\r\nProxy-Status:\x20http_request_error;\x20e_fb_conf
+SF:igversion=\"AcJXPsO56_IIn3T4G8Qv4-kgHAla4m_xrFBjlTHooD64JyoKi5TC4DQvQh2
+SF:UcQ\";\x20e_clientaddr=\"AcKOyZTbDKY2sZYt8xF09CC0L17tAAs7jSgOKNSvPw6XlW
+SF:2wGxF5LD6hfCgeZcwzdBT9Fn1rwgYI0pJj3SNX6wl5hNOuFUEUqHJFcwyCSxgbte8kTw\";
+SF:\x20e_fb_vipport=\"AcI5khIL2ic8_attjvR8j0XTcnMDWi8s-9UsiIUbOv_ZVFW0GPE6
+SF:Dq5QrXrl\";\x20e_upip=\"AcIBSL45TZjc021LnE0ArUdp3T_X5gHss8W5yvq2HTrtmjb
+SF:FIb-OB_rIDfwo0B_rv3dPDwrOE95OaL9GsLrRKLJ3cT626YzeO90\";\x20e_fb_request
+SF:sequencenumber=\"AcJfRC-ZlVc3F7gNAWlDUSuzlbO2AUbG0oFteGg0AWtEqFw37cp4GQ
+SF:yYL_r3\";\x20e_fb_hostheader=\"AcIHGQVvbvXxEoKQVqHk7tPCYafwcOEb8mdnEmOo
+SF:IUWivvQDlbym6QQ5n-1RtZdgtMowvniSnA\";\x20e_fb_vipaddr=\"AcLWdXsysU8SynL
+SF:RfuvG2Jijh7b3scXuOo")%r(HTTPOptions,15A4,"HTTP/1\.1\x20500\x20Internal\
+SF:x20Server\x20Error\r\nVary:\x20Accept-Encoding\r\nPragma:\x20no-cache\r
+SF:\nCache-Control:\x20private,\x20no-cache,\x20no-store,\x20must-revalida
+SF:te\r\nExpires:\x20Sat,\x2001\x20Jan\x202000\x2000:00:00\x20GMT\r\nconte
+SF:nt-security-policy:\x20default-src\x20'self'\x20data:\x20blob:;script-s
+SF:rc\x20'unsafe-inline'\x20'unsafe-eval'\x20blob:\x20data:\x20'self'\x20\
+SF:*\.facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x20\*\.google-a
+SF:nalytics\.com\x20\*\.google\.com\x20127\.0\.0\.1:\*;style-src\x20data:\
+SF:x20blob:\x20'unsafe-inline';connect-src\x20blob:\x20'self'\x20\*\.faceb
+SF:ook\.com\x20facebook\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x20wss
+SF:://\*\.facebook\.com:\*\x20wss://\*\.whatsapp\.com:\*\x20wss://\*\.fbcd
+SF:n\.net\x20attachment\.fbsbx\.com\x20ws://localhost:\*\x20\*\.cdninstagr
+SF:am\.com;block-all-mixed-content;upgrade-insecure-requests;\r\nX-Frame-O
+SF:ptions:\x20DENY\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protecti
+SF:on:\x200\r\nreporting-endpoints:\x20coop_report=\"https://www\.facebook
+SF:\.com/browser_reporting/coop/\?minimize=0\"\r\nreport-to:\x20{\"max_age
+SF:\":2592000,\"endpoints\":\[{\"url\":\"h");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Timing level 5 (Insane) used
+No OS matches for host
+Uptime guess: 0.000 days (since Fri Mar 22 04:37:27 2024)
+Network Distance: 13 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   6.40 ms   192.168.75.93
+2   52.46 ms  255.0.0.0
+3   53.08 ms  255.0.0.2
+4   53.10 ms  255.0.0.3
+5   52.52 ms  172.27.250.82
+6   55.49 ms  192.168.171.110
+7   ... 8
+9   104.87 ms ae2.pr02.hyd1.tfbnw.net (157.240.89.212)
+10  51.27 ms  po202.asw02.hyd1.tfbnw.net (129.134.96.216)
+11  44.24 ms  psw02.hyd1.tfbnw.net (129.134.115.157)
+12  43.69 ms  173.252.67.63
+13  41.06 ms  edge-star-mini-shv-01-hyd1.facebook.com (163.70.140.35)
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Mar 22 04:37:46 2024 -- 1 IP address (1 host up) scanned in 60.61 seconds
